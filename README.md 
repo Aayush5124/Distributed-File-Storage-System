@@ -1,0 +1,47 @@
+# Distributed File Storage System
+
+## Overview
+This project is a distributed file storage system implemented in Java. It includes features such as file chunking, distributed node management, metadata storage, and security with encryption and authentication.
+
+## Getting Started
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-repo/distributed-file-storage-system.git
+    ```
+
+2. **Build the project:**
+    - For Maven:
+      ```bash
+      mvn clean install
+      ```
+    - For Gradle:
+      ```bash
+      gradle build
+      ```
+
+3. **Run the servers:**
+    ```bash
+    java -cp target/distributed-file-storage-system.jar com.example.node.NodeServer
+    ```
+
+4. **Run the client:**
+    ```bash
+    java -cp target/distributed-file-storage-system.jar com.example.node.NodeClient
+    ```
+
+5. **Deploy the web application:**
+    - Deploy the `src/webapp` content to your servlet container (e.g., Tomcat).
+
+## Testing
+- Run tests using:
+    - For Maven:
+      ```bash
+      mvn test
+      ```
+    - For Gradle:
+      ```bash
+      gradle test
+      ```
+
+## Contributing
+Please open an issue or submit a pull request if you have suggestions or improvements.
